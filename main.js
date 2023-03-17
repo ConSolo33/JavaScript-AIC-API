@@ -3,7 +3,7 @@ async function clickedEvent(img_index, item_index) {
 
     let headers = new Headers({
         'Content-Type': 'application/json',
-        'AIC-User-Agent': 'aic-bash (connor.solawetz3@gmail.com)'
+        'AIC-User-Agent': 'aic-bash ()'
     });
 
     let request = new Request(`https://api.artic.edu/api/v1/artworks/${artwork}?fields=title,artist_title,date_display,place_of_origin,medium_display,`, {
